@@ -28,15 +28,15 @@
 
 @font-face {
   font-family: azarbayjan;
-  src: url(../font/azarbayjan/\(Edits_Font\)\(1\).ttf);
+  src: url(./(Edits_Font\)\(1\).ttf);
 }
 @font-face {
   font-family: mikhak;
-  src: url(../font/mikhak/Statics/ttf/Mikhak-Black.ttf);
+  src: url(./Mikhak-Black.ttf);
 }
 @font-face {
   font-family: vazir;
-  src: url(../font/vazir/Vazir-Bold.ttf);
+  src: url(./Vazir-Bold.ttf);
 }
 @font-face {
   font-family: vazir md;
@@ -44,11 +44,11 @@
 }
 @font-face {
   font-family: vazir light;
-  src: url(../font/vazir/Vazir-Light.ttf);
+  src: url(./Vazir-Light.ttf);
 }
 @font-face {
   font-family: vazir dg;
-  src: url(../font/vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.ttf);
+  src: url(./Vazir-Thin-FD-WOL.ttf);
 }
 
 /* 
