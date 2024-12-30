@@ -206,7 +206,6 @@ h3 {
        card
 ====================
 */
-
 .card-center {
   margin-bottom: 20px;
 }
@@ -235,8 +234,8 @@ h3 {
   gap: 16px;
 }
 .card-img {
-  width: 195px;
-  height: 260px;
+  width: 160px;
+  height: 190px;
   margin: 0 auto;
 }
 .card-img img {
@@ -251,21 +250,46 @@ h3 {
   width: 100%;
   color: var(--clr-text);
   font-family: var(--font-secondary-dg);
+  font-size: 14px;
+}
+.card-info h4 {
+  max-width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .card-info strong {
   display: flex;
   justify-content: space-between;
 }
 .card .btn {
-  height: 40px;
+  height: 35px;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   padding: 8px;
+  font-size: 12px;
 }
-
+@media screen and (min-width: 768px) {
+  .card {
+    width: 260px;
+    gap: 20px;
+  }
+  .card-img {
+    width: 175px;
+    height: 200px;
+  }
+  .card-info {
+    gap: 12px;
+    font-size: 16px;
+  }
+  .card .btn {
+    height: 35px;
+    font-size: 14px;
+  }
+}
 @media screen and (min-width: 992px) {
   .card {
     width: 310px;
@@ -276,7 +300,7 @@ h3 {
     height: 200px;
   }
   .card-info {
-    gap: 14px;
+    gap: 12px;
   }
   .card .btn {
     height: 35px;
@@ -290,17 +314,30 @@ h3 {
   .card {
     width: 310px;
     gap: 32px;
+    border: solid 1.5px var(--clr-border-card);
+    padding: 24px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
   }
   .card-img {
     width: 276px;
     height: 291px;
   }
   .card-info {
-    gap: 16px;
-    font-size: 20px;
+    gap: 24px;
+    font-size: 24px;
   }
   .card .btn {
     height: 50px;
+    font-size: 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
   }
 }
 @media screen and (min-width: 2000px) {
@@ -308,42 +345,49 @@ h3 {
     margin-block: 40px;
   }
   .card {
-  width: 430px;
-  gap: 46px;
-  border: solid 2px var(--clr-border-card);
-  padding: 20px;
-  border-radius: 16px;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
-}
+    width: 430px;
+    gap: 42px;
+    border: solid 2.5px var(--clr-border-card);
+    padding: 32px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+  }
   .card-img {
     width: 391px;
     height: 406px;
   }
   .card-info {
-    gap: 30px;
-    font-size: 32px;
+    gap: 32px;
+    font-size: 30px;
   }
   .card .btn {
-    height: 70px;
-    font-size: 25px;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
-}
+    height: 75px;
+    font-size: 26px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+  }
 }
 /* Exception */
 @media screen and (min-width: 2500px) {
   .card {
     width: 455px;
   }
-  card-img {
+  .card-img {
     width: 401px;
     height: 416px;
+  }
+  .card-info {
+    gap: 30px;
+    font-size: 34px;
+  }
+  .card .btn {
+    font-size: 28px;
   }
 }
 
