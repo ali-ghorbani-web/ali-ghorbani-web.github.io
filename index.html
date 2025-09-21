@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>گیاه‌لند</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+
+    <div class="search-overly show-overly"></div>
+    
+    <!-- navbar -->
+    <nav class="navbar">
+      <article class="nav-right">
+        <div class="nav-toggle">
+          <div class="icon">
+            <i class="bi bi-list"></i>
+          </div>
+          <h2>گیاه‌لند</h2>
+        </div>
+
+        <ul class="nav-lists">
+          <li class="nav-list">
+            <a href="#" class="active nav-link">صفحه‌اصلی</a>
+          </li>
+          <li class="nav-list"><a href="#" class="nav-link">گیاه‌پزشک</a></li>
+          <li class="nav-list"><a href="#" class="nav-link">وبلاگ</a></li>
+          <li class="nav-list"><a href="#" class="nav-link">درباره‌ما</a></li>
+          <li class="nav-list"><a href="#" class="nav-link">تماس با ما</a></li>
+        </ul>
+      </article>
+      <!--  -->
+      <article class="nav-left">
+        <a href="#" class="btn-nav seacrh-btn-nav">
+          <i class="bi bi-search"></i>
+        </a>
+        <a href="#" class="btn-nav">
+          <i class="bi bi-cart2"></i>
+        </a>
+        <a href="./login&signUp/login/index.html" class="btn-nav">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <strong> ورود/ثبت‌نام </strong>
+        </a>
+      </article>
+      <!--  -->
+      <article class="nav-search">
+        <input type="search" name="search" placeholder="جستجوی‌گیاه" />
+        <div class="search-input-nav">
+          <i class="bi bi-search"></i>
+        </div>
+      </article>
+
+      <div class="underline"></div>
+    </nav>
+
+    <main>
+      <!-- header -->
+      <header class="header">
+        <div class="header-center">
+          <article class="header-img">
+            <img src="./img/header/Vector 1.png" alt="" />
+          </article>
+          <article class="header-info">
+            <h1>خرید راحت گیاه ، <span>با گیاه‌لند</span></h1>
+            <p>
+              با گیاه لند،آنلاین گیاه خودت رو سفارش بده و از تخفیف های ویژه
+              استفاده کن.علاوه بر اینها میتونی به صورت رایگان از گیاه پزشک سایت
+              مشاوره بگیری.
+            </p>
+            <div class="header-btns">
+              <a href="#" class="btn header-btn">گیاهان تخفیف‌دار</a>
+              <a href="#" class="btn header-btn header-btn-secondary"
+                >مشاوره با گیاه‌پزشک
+                <span><i class="bi bi-diamond-fill"></i></span
+              ></a>
+            </div>
+            <div class="current">
+              <div class="current-text">
+                <strong><span id="current1"></span>+</strong>
+                <strong>گیاه خانگی</strong>
+              </div>
+              <div class="current-text">
+                <strong><span id="current2"></span>+</strong>
+                <strong>گیاه تزئینی</strong>
+              </div>
+              <div class="current-text">
+                <strong><span id="current3"></span>+</strong>
+                <strong>گیاه کادویی</strong>
+              </div>
+            </div>
+          </article>
+        </div>
+      </header>
+      <!-- services -->
+      <section class="services">
+        <div class="services-center">
+          <article class="service-card">
+            <div class="service-icon icon">
+              <img src="./img/service/Vector3.svg" alt="" />
+            </div>
+            <div class="service-info">
+              <strong>پرداخت درب منزل</strong>
+              <p>
+                برای ایجاد اطمینان خاطر مشتریان،علاوه بر پرداخت آنلاین امکان
+                پرداخت درب منزل وجود دارد
+              </p>
+            </div>
+          </article>
+          <article class="service-card">
+            <div class="service-icon icon">
+              <img src="./img/service/Vector2.svg" alt="" />
+            </div>
+            <div class="service-info">
+              <strong>ضمانت محصول</strong>
+              <p>
+                به مدت دوهفته پس از دریافت محصول در صورت وجود مشکل میتوانید رجوع
+                کنید
+              </p>
+            </div>
+          </article>
+          <article class="service-card">
+            <div class="service-icon icon">
+              <img src="./img/service/Vector.svg" alt="" />
+            </div>
+            <div class="service-info">
+              <strong>تحویل درب منزل</strong>
+              <p>
+                با ایجاد آدرس منزل خود در پروفایل کاربری، محصول خودرا درب منزل
+                تحویل بگیرید
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- img -->
+      <section class="images">
+        <div class="image-center">
+          <figure class="image-img">
+            <img src="./img/image/Frame 144.png" alt="" />
+          </figure>
+          <figure class="image-img">
+            <img src="./img/image/Frame 142.png" alt="" />
+          </figure>
+        </div>
+      </section>
+      <!-- card-1 Season1 - apartment plant -->
+      <section class="card-center">
+        <h3 class="card-toggle">گیاهان آپارتمانی</h3>
+        <div class="cards">
+          <!-- card1 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector-1.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی یوکا</h4>
+              <strong>قیمت: <span>۵۶۰,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+          <!-- card2 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector-2.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی باباآدم</h4>
+              <strong>قیمت: <span>۸۵۲,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+          <!-- card3 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector-3.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی سانسوریا سبز</h4>
+              <strong>قیمت: <span>۲۵۰,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+          <!-- card4 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector-4.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی ساکولنت</h4>
+              <strong>قیمت: <span>۵۷,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+        </div>
+      </section>
+      <!-- card-2 Season1 - plant -->
+      <section class="card2-center">
+        <div class="cards2">
+          <!-- card1 -->
+          <article class="card2">
+            <img
+              src="./img/card-plant2/952965b2c0ac8708235ecc9d8aae0217.png"
+              alt=""
+            />
+            <div class="overlay"></div>
+            <div class="card2-info">
+              <h4>گیاه بونسای</h4>
+              <a class="btn" href="#"
+                >خرید گیاه بونسای <span><i class="bi bi-diamond-fill"></i></span
+              ></a>
+            </div>
+          </article>
+          <!-- card2 -->
+          <article class="card2">
+            <img
+              src="./img/card-plant2/257f382a0a81569b76df9c31d68b31cd.png"
+              alt=""
+            />
+            <div class="overlay"></div>
+            <div class="card2-info">
+              <h4>گیاه سانسوریا</h4>
+              <a class="btn" href="#"
+                >خرید گیاه سانسوریا
+                <span><i class="bi bi-diamond-fill"></i></span
+              ></a>
+            </div>
+          </article>
+          <!-- card3 -->
+          <article class="card2">
+            <img
+              src="./img/card-plant2/7b6c12626d7c56481b020623973dfa3b2.png"
+              alt=""
+            />
+            <div class="overlay"></div>
+            <div class="card2-info">
+              <h4>گیاه پتوس</h4>
+              <a class="btn" href="#"
+                >خرید گیاه پتوس <span><i class="bi bi-diamond-fill"></i></span
+              ></a>
+            </div>
+          </article>
+          <!-- card4 -->
+          <article class="card2">
+            <img
+              src="./img/card-plant2/f701cfd22c0b2b9d1f7cf4f72f14225b2.png"
+              alt=""
+            />
+            <div class="overlay"></div>
+            <div class="card2-info">
+              <h4>گیاه پاچیرا</h4>
+              <a class="btn" href="#"
+                >خرید گیاه پاچیرا <span><i class="bi bi-diamond-fill"></i></span
+              ></a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- service-plant -->
+      <section class="service-plant">
+        <div class="plant-toggle">
+          <h3>خدمات گیاه‌پزشکی</h3>
+        </div>
+        <div class="plant-cards">
+          <!-- card1 -->
+          <article class="plant-card">
+            <figure class="img">
+              <img src="./img/herbalist/4.png" alt="" />
+            </figure>
+            <div class="info">
+              <strong>بررسی آسیب‌های احتمالی</strong>
+              <p>
+                تمامی آسیب های احتمالی برسی میگردد تا از وقوع مشکلات آینده
+                جلوگیری شود
+              </p>
+            </div>
+          </article>
+          <!-- card2 -->
+          <article class="plant-card">
+            <figure class="img">
+              <img src="./img/herbalist/3.png" alt="" />
+            </figure>
+            <div class="info">
+              <strong>مشاهده بهترین دما</strong>
+              <p>
+                از موارد مهم برای گیاه مقدار دمای محیط است که باید اندازه گیری
+                شود
+              </p>
+            </div>
+          </article>
+          <!-- card3 -->
+          <article class="plant-card">
+            <figure class="img">
+              <img src="./img/herbalist/2.png" alt="" />
+            </figure>
+            <div class="info">
+              <strong>بررسی مواد معدنی خاک</strong>
+              <p>
+                یکی از موارد مهم خاک، مقدار مواد معدنی آن است که با دقت برسی
+                میشود
+              </p>
+            </div>
+          </article>
+          <!-- card4 -->
+          <article class="plant-card">
+            <figure class="img">
+              <img src="./img/herbalist/1.png" alt="" />
+            </figure>
+            <div class="info">
+              <strong>چک‌کردن اسید خاک</strong>
+              <p>با استفاده از ابزار مخصوص اسید خاک گیاه چک میشود</p>
+            </div>
+          </article>
+          <!-- card5 -->
+          <article class="plant-card">
+            <figure class="img">
+              <img src="./img/herbalist/8.png" alt="" />
+            </figure>
+            <div class="info">
+              <strong>ارائه مکمل</strong>
+              <p>
+                برای رشد بهتر گیاهان و رفع آفات از مکمل ها میتوان استفاده کرد
+              </p>
+            </div>
+          </article>
+          <!-- card6 -->
+          <article class="plant-card">
+            <figure class="img">
+              <img src="./img/herbalist/7.png" alt="" />
+            </figure>
+            <div class="info">
+              <strong>اندازه گیری EC </strong>
+              <p>
+                این اندازه گیری نشانی از مقدار کل مواد مغذی موجود برای گیاهان
+                می‌دهد
+              </p>
+            </div>
+          </article>
+          <!-- card7 -->
+          <article class="plant-card">
+            <figure class="img">
+              <img src="./img/herbalist/6.png" alt="" />
+            </figure>
+            <div class="info">
+              <strong>بررسی ظاهر</strong>
+              <p>
+                ظاهر گیاه بیانگر مسائل مهمی هست.میتوان با مشاهده ظاهر گیاه آفات
+                و ... را متوجه شد
+              </p>
+            </div>
+          </article>
+          <!-- card8 -->
+          <article class="plant-card">
+            <figure class="img">
+              <img src="./img/herbalist/5.png" alt="" />
+            </figure>
+            <div class="info">
+              <strong>ازبین بردن عناصر آلوده خاک</strong>
+              <p>
+                با استفاده از روش های نوین،عناصر آلوده از خاک گیاهان شما جمع
+                آوری میشوند
+              </p>
+            </div>
+          </article>
+          <!-- card-hidden -->
+          <article class="plant-card">
+            <figure class="img">
+              <img src="./img/herbalist/4.png" alt="" />
+            </figure>
+            <div class="info">
+              <strong>بررسی آسیب‌های احتمالی</strong>
+              <p>
+                تمامی آسیب های احتمالی برسی میگردد تا از وقوع مشکلات آینده
+                جلوگیری شود
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- card-1 Season2 - Decoration plant -->
+      <section class="card-center">
+        <h3 class="card-toggle">گیاهان تزئینی</h3>
+        <div class="cards">
+          <!-- card1 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector2-1.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی کراسولا</h4>
+              <strong>قیمت: <span>۵۶۰,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+          <!-- card2 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector2-2.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی پشم</h4>
+              <strong>قیمت: <span>۸۵۲,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+          <!-- card3 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector2-3.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی بونسای پاچیرا</h4>
+              <strong>قیمت: <span>۲۵۰,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+          <!-- card4 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector2-4.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی کراسولا خرفه‌ای</h4>
+              <strong>قیمت: <span>۵۷,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+        </div>
+      </section>
+      <!-- card-2 Season2 - plant -->
+      <section class="card2-center">
+        <div class="cards2">
+          <!-- card1 -->
+          <article class="card2">
+            <img
+              src="./img/card-plant2/2377b08be5baf1ddff1d185ee8682ff3.png"
+              alt=""
+            />
+            <div class="overlay"></div>
+            <div class="card2-info">
+              <h4>گیاه رزماری</h4>
+              <a class="btn" href="#"
+                >خرید گیاه رزماری <span><i class="bi bi-diamond-fill"></i></span
+              ></a>
+            </div>
+          </article>
+          <!-- card2 -->
+          <article class="card2">
+            <img
+              src="./img/card-plant2/653fb3b0d82f9d804861fd4a9c718bc5.png"
+              alt=""
+            />
+            <div class="overlay"></div>
+            <div class="card2-info">
+              <h4>گیاه آدنیوم</h4>
+              <a class="btn" href="#"
+                >خرید گیاه آدنیوم <span><i class="bi bi-diamond-fill"></i></span
+              ></a>
+            </div>
+          </article>
+          <!-- card3 -->
+          <article class="card2">
+            <img
+              src="./img/card-plant2/2af8e0551d0793c47d762e5dd405388c.png"
+              alt=""
+            />
+            <div class="overlay"></div>
+            <div class="card2-info">
+              <h4>گیاه بونسای آشیانتوس</h4>
+              <a class="btn" href="#"
+                >خرید گیاه آشیانتوس
+                <span><i class="bi bi-diamond-fill"></i></span
+              ></a>
+            </div>
+          </article>
+          <!-- card4 -->
+          <article class="card2">
+            <img
+              src="./img/card-plant2/9e75ea71c61ad7b6af79e5d32dc68335.png"
+              alt=""
+            />
+            <div class="overlay"></div>
+            <div class="card2-info">
+              <h4>گیاه آناناسی</h4>
+              <a class="btn" href="#"
+                >خرید گیاه آناناسی
+                <span><i class="bi bi-diamond-fill"></i></span
+              ></a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- card-1 Season3 - gift plant -->
+      <section class="card-center">
+        <h3 class="card-toggle">گیاهان کادویی</h3>
+        <div class="cards">
+          <!-- card1 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector3-1.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی بنت قنسول </h4>
+              <strong>قیمت: <span>۱۷۶,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+          <!-- card2 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector3-2.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی آنتوریوم</h4>
+              <strong>قیمت: <span>۴۵۹,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+          <!-- card3 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector3-3.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی بونسای پاچیرا</h4>
+              <strong>قیمت: <span>۸۸۰,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+          <!-- card4 -->
+          <article class="card">
+            <figure class="card-img">
+              <img src="./img/apartment-plant/Vector3-4.png" alt="" />
+            </figure>
+            <div class="card-info">
+              <h4>گیاه طبیعی آنتوریوم</h4>
+              <strong>قیمت: <span>۴۹۸,۰۰۰ تومان</span></strong>
+            </div>
+            <a class="btn" href="#">مشاهده بیشتر</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <article class="footer-plants">
+          <!-- 1 -->
+          <article class="footer-plant">
+            <h4>آپارتمانی</h4>
+            <div>
+              <a href="#">باباآدم</a>
+              <a href="#">یوکا</a>
+              <a href="#">سانسوریا</a>
+            </div>
+          </article>
+          <!-- 2 -->
+          <article class="footer-plant">
+            <h4>تزئینی</h4>
+            <div>
+              <a href="#">یشم</a>
+              <a href="#">کراسولا</a>
+              <a href="#">کراسولا حرفه ای</a>
+            </div>
+          </article>
+          <!-- 3 -->
+          <article class="footer-plant">
+            <h4>کادویی</h4>
+            <div>
+              <a href="#">آنتوریوم</a>
+              <a href="#">بونسای</a>
+              <a href="#">بنت قنسول</a>
+            </div>
+          </article>
+        </article>
+
+        <article class="footer-info">
+          <article class="footer-info-text">
+            <h4>گیاه‌لند</h4>
+            <p>
+              گیاه‌لند سعی براین دارد با ارائه خدمات نوین در حوزه فروش گیاهان
+              باعث راحتی شما در خرید انواع گیاه شود. تنوع گیاهان و همچنین ایجاد
+              بستری مناسب برای مشاوره با گیاه‌پزشک از دیگر مزیت های گیاه‌لند
+              می‌باشد
+            </p>
+          </article>
+          <article class="footer-info-contact">
+            <div class="fic-icon">
+              <strong>تلفن پشتیبانی: <span>۰۹۹۴۵۱۴۸۰۶۷</span></strong>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/ali-ghorbani-158275347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a href="http://t.me/Ali_ghorbani_va" target="_blank"
+                  ><i class="bi bi-telegram"></i
+                ></a>
+                <a target="_blank" href="https://www.instagram.com/ali_ghorbani.va?igsh=YWJvNGhpNTlkY2Rr"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+            <img src="./img/footer/image 8.png" alt="E-namad img" />
+          </article>
+        </article>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
