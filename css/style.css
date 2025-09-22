@@ -28,27 +28,27 @@
 
 @font-face {
   font-family: mikhak;
-  src: url(../font/mikhak/Mikhak-Black.ttf);
+  src: url(../font/mikhak/Mikhak-Black.woff2);
 }
 
 @font-face {
   font-family: vazir;
-  src: url(../font/vazir/Vazir-Bold.ttf);
+  src: url(../font/vazir/Vazir-Bold.woff2);
 }
 
 @font-face {
   font-family: vazir md;
-  src: url(../font/vazir/Vazir-Medium.ttf);
+  src: url(../font/vazir/Vazir-Medium.woff2);
 }
 
 @font-face {
   font-family: vazir light;
-  src: url(../font/vazir/Vazir-Light.ttf);
+  src: url(../font/vazir/Vazir-Light.woff2);
 }
 
 @font-face {
   font-family: vazir dg;
-  src: url(../font/vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.ttf);
+  src: url(../font/vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff2);
 }
 
 /* 
