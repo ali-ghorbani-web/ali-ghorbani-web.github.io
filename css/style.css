@@ -794,6 +794,7 @@ h3 {
 
 .scroll-nav .underline {
   bottom: 0;
+  height: 2px;
   background-color: var(--clr-primary);
 }
 
