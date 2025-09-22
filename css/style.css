@@ -774,7 +774,7 @@ h3 {
 
 .underline {
   position: absolute;
-  height: 1px;
+  height: 2px;
   width: 100%;
   background-color: var(--clr-dark);
   right: 0px;
